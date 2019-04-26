@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-section input.form-control {
+  width: 100%;
+  max-width: 320px;
+  height: 35px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  font-size: 14px;
+}
+
+.form-section input:focus {
+  border: 1px solid #00c29b;
+  outline: none;
+}
+
+.form-section button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #00c29b;
+  color: #fff;
+  border: 1px solid #00c29b;
+  cursor: pointer;
+}
+
+.form-section button[type="submit"]:hover {
+  background: #2f3b50;
+  border-color: #2f3b50;
+}
+
+.form-section button[type="submit"][disabled] {
+  background: gray;
+  cursor: not-allowed;
+  border-color: gray;
+}
